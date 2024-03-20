@@ -466,11 +466,40 @@
             </li>
           </ul>
         </div>
+
+        <div class="footer-third-box">
+          <p class="footer-text-social">Subscribe</p>
+          <div class="footer-form-btn">
+            <label for="footer-form">
+              <input
+                type="email"
+                name="email"
+                id="footer-form"
+                class="footer-input"
+                placeholder="E-mail"
+              />
+            </label>
+            <button type="submit" class="footer-btn-form">
+              <span>Subscribe</span>
+              <svg class="footer-btn-icon" width="24" height="20">
+                <use href="./images/icons.svg#icon-send"></use>
+              </svg>
+            </button>
+          </div>
+        </div>
       </div>
     </footer>
-    <div class="backdrop">
+
+    <!-- ==========MODAL========== -->
+
+    <div class="backdrop is-open">
       <div class="modal">
-        <button type="button" class="modal-close">X</button>
+        <button type="button" class="modal-close">
+          <svg class="btn-close-icon" width="8" height="8">
+            <use href="./images/icons.svg#icon-close"></use>
+          </svg>
+        </button>
+
         <p class="modal-title">Leave your contacts and we will call you back</p>
 
         <form class="form" name="form-name">
@@ -534,7 +563,7 @@
           </div>
 
           <div class="form-field">
-            <label for="form-comment">
+            <label for="user-comment">
               <span class="form-title-input">Comment</span>
             </label>
 
@@ -542,18 +571,30 @@
               name="user-comment"
               id="user-comment"
               placeholder="Text input"
-              class="modal-text"
+              class="modal-text form-input"
             ></textarea>
           </div>
 
+          <!-- ======CHECK====== -->
           <div class="form-check">
-            <label for="form-check"></label
-            ><input type="checkbox" name="form-check" value="check" />
-            <span class="form-title-input"
-              >I accept the terms and conditions of the
-              <a href="">Privacy Policy</a>
-            </span>
+            <input
+              type="checkbox"
+              id="form-check"
+              name="form-check"
+              class="form-check-input visually-hidden"
+              required
+            />
+            <label for="form-check" class="form-title-check"
+              ><span>
+                <svg class="modal-check-icon" width="10" height="8">
+                  <use href="./images/icons.svg#icon-ok"></use>
+                </svg>
+              </span>
+              I accept the terms and conditions of the
+              <a href="" class="modal-link">Privacy Policy</a>
+            </label>
           </div>
+
           <button type="submit" class="btn-form">Send</button>
         </form>
       </div>
