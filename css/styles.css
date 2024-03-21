@@ -554,20 +554,29 @@ img {
   height: 40px;
   background: transparent;
   padding-left: 16px;
+  font-size: 12px;
+  line-height: 2;
+  letter-spacing: 0.04em;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  color: #ffffff;
 }
 
 .footer-input::placeholder {
   font-size: 12px;
   line-height: 2;
   letter-spacing: 0.04em;
-  color: #fff;
+  color: #ffffff;
 }
 
 .footer-btn-form {
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #ffffff;
   border-radius: 4px;
   border: none;
   padding: 8px 24px;
-  width: 165px;
+  min-width: 165px;
   height: 40px;
   background: #4d5ae5;
 
@@ -587,7 +596,7 @@ img {
 .footer-btn-form:hover {
   background: #404bbf;
 }
-.footer-btn-form span {
+.footer-btn-form {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
@@ -596,6 +605,7 @@ img {
 }
 .footer-btn-icon {
   fill: #fff;
+  margin-left: 16px;
 }
 
 /* ==========MODAL============= */
