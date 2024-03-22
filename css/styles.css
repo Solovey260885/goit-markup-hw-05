@@ -646,7 +646,7 @@ img {
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
   padding: 72px 24px 24px 24px;
 }
-/* =====close-btn-start===== */
+/* =====close-btn-start====== */
 
 .modal-close {
   position: absolute;
