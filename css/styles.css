@@ -782,6 +782,8 @@ img {
 .form-check {
   margin-top: 16px;
   margin-bottom: 24px;
+  display: flex;
+  align-items: center;
 }
 
 .form-chek-icon {
@@ -811,8 +813,8 @@ img {
 
   position: relative;
 
-  /* display: inline-flex; */
-  align-items: center;
+  display: inline-flex;
+  /* align-items: center; */
 }
 
 .modal-check-icon {
