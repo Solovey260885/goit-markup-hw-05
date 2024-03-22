@@ -773,6 +773,10 @@ img {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.form-field-comment {
+  margin-bottom: 16px;
+}
+
 /* ===========CHECK================ */
 
 .form-check {
@@ -823,7 +827,7 @@ img {
   color: #4d5ae5;
 }
 
-.form-check-input:checked + .form-title-check span {
+.form-check-input:checked + .form-title-check .form-chek-icon {
   background-color: #404bbf;
   border: none;
   fill: #f4f4fd;
