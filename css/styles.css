@@ -680,10 +680,15 @@ img {
 .modal-close:focus {
   fill: #ffffff;
   border: none;
+  background-color: #404bbf;
 }
 
 .modal-close:hover .btn-close-icon {
-  fill: #fff;
+  fill: #ffffff;
+}
+
+.modal-close:focus .btn-close-icon {
+  fill: #ffffff;
 }
 
 /* =====close-btn-end===== */
@@ -702,7 +707,7 @@ img {
 }
 
 .form-field {
-  margin-bottom: 16px;
+  margin-bottom: 8px;
 }
 
 .modal-input-wrap {
@@ -721,6 +726,9 @@ img {
   line-height: 1.17;
   letter-spacing: 0.04em;
   color: #8e8f99;
+
+  display: block;
+  margin-bottom: 4px;
 }
 
 .form-input {
@@ -743,9 +751,14 @@ img {
   outline: transparent;
   padding: 8px 16px;
   resize: none;
+
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
+  color: rgba(46, 47, 66, 0.4);
 }
 
-.modal-text .modal-text::placeholder {
+.modal-text::placeholder {
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.04em;
@@ -764,6 +777,7 @@ img {
 
 .form-check {
   margin-top: 16px;
+  margin-bottom: 24px;
 }
 
 .form-chek-icon {

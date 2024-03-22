@@ -470,7 +470,7 @@
         <div class="footer-third-box">
           <p class="footer-text-social">Subscribe</p>
           <form class="footer-form-btn">
-            <label for="footer-form">
+            <label for="footer-form" class="footer-form-label">
               <input
                 type="email"
                 name="email"
@@ -481,7 +481,7 @@
             </label>
             <button type="submit" class="footer-btn-form">
               Subscribe
-              <svg class="footer-btn-icon" width="24" height="20">
+              <svg class="footer-btn-icon" width="24" height="24">
                 <use href="./images/icons.svg#icon-send"></use>
               </svg>
             </button>
@@ -509,7 +509,7 @@
             <div class="modal-input-wrap">
               <input
                 type="text"
-                name="name"
+                name="form-name"
                 id="form-name"
                 class="form-input"
                 required
@@ -527,7 +527,7 @@
             <div class="modal-input-wrap">
               <input
                 type="tel"
-                name="phone"
+                name="form-phone"
                 id="form-phone"
                 class="form-input"
                 required
@@ -545,7 +545,7 @@
             <div class="modal-input-wrap">
               <input
                 type="email"
-                name="email"
+                name="form-email"
                 id="form-email"
                 class="form-input"
                 required
@@ -572,12 +572,13 @@
           <div class="form-check">
             <input
               type="checkbox"
-              id="form-check"
+              id="user-privacy"
               name="form-check"
               class="form-check-input visually-hidden"
               required
+              value="true"
             />
-            <label for="form-check" class="form-title-check"
+            <label for="user-privacy" class="form-title-check"
               ><span class="form-chek-icon">
                 <svg class="modal-check-icon" width="10" height="8">
                   <use href="./images/icons.svg#icon-ok"></use>
