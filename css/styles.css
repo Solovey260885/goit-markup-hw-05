@@ -605,7 +605,6 @@ img {
 }
 .footer-btn-icon {
   fill: #fff;
-  margin-left: 16px;
 }
 
 /* ==========MODAL============= */
@@ -766,7 +765,7 @@ img {
 }
 .modal-icon {
   position: absolute;
-  stroke: #2e2f42;
+  fill: #2e2f42;
   left: 16px;
   top: 50%;
   transform: translateY(-50%);
@@ -814,7 +813,7 @@ img {
   position: relative;
 
   display: inline-flex;
-  /* align-items: center; */
+  align-items: center;
 }
 
 .modal-check-icon {
